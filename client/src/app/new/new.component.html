@@ -1,0 +1,7 @@
+
+<div id="add_new_layer">
+  <label for="content">Note:
+    <input type="text" name="content" [(ngModel)]="notesService.content" ></label>
+  <button (click)="add()">Add Note</button>
+  <p [ngClass]="{'red': error }">{{ content.errors }}</p>
+</div>

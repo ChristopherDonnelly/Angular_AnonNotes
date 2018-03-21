@@ -1,0 +1,38 @@
+.red {
+    color: red;
+    margin: 10px 50px;
+}
+
+#add_new_layer {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 30px 20px 20px;
+    margin: 0px auto;
+    background-color: white;
+    text-align: left;
+    height: 80px;
+}
+
+input[type="text"] {
+    margin: 10px 0px;
+    width: 80%;
+    height: 25px;
+}
+
+button {
+    width: 115px;
+    background-color: #009e0f;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    height: 30px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    box-shadow: 3px 3px #009e0f;
+    color: black;
+    font-weight: bold;
+}
